@@ -49,6 +49,7 @@ function App() {
       .then(data => setForex(data.rates[toCurrency]))
   }, [fromCurrency, toCurrency])
 
+  // rr
   function handlefromAmountchange (e) {
     setAmount(e.target.value)
     setAmountFrom(true)
